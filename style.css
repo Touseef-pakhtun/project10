@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-size: 15px;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex; 
+    flex-direction: column;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    width: 70%;
+    height: 75%;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    justify-content: center;
+    border-radius: 10px;
+}
+.box{
+    width: 33.33%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 20px;
+    padding-left: 30px;
+    border-radius: 0px;
+    
+    text-align:start;
+}
+.box1{
+    background-color: hsl(31, 77%, 52%);
+}
+.box2{
+    background-color: hsl(184, 100%, 22%);
+}
+.box3{
+    background-color: hsl(179, 100%, 13%);
+}
+.models{
+    font-size: 40px;
+    font-weight: bolder;
+}
+img{
+    margin-top: 25px;
+    width: 30%;
+    height:auto;
+    align-self: left;
+}
+.paragraph{
+    color: class="paragraph";
+}
+button{
+    width: 50%;
+    height: 10%;
+    border-radius: 20px;
+    border: none;
+}
+.box1 button{
+    color: hsl(31, 77%, 52%);
+}
+.box2 button{
+    color: hsl(184, 100%, 22%);
+}
+.box3 button{
+    color: hsl(179, 100%, 13%);
+}
+
+.box1 button:hover{
+    background-color: hsl(31, 77%, 52%);
+    color: hsl(0, 0%, 100%);
+}
+.box2 button:hover{
+    background-color: hsl(184, 100%, 22%);
+    color: hsl(0, 0%, 100%);
+}
+.box3 button:hover{
+    background-color: hsl(179, 100%, 13%);
+    color: hsl(0, 0%, 100%);
+}
+
+.box button:active{
+    background-color: white;
+    color: black;
+}
+
+.attribution {
+    margin-top: 20px;
+     font-size: 11px;
+      text-align: center; 
+      color: black;
+}
+.attribution a { 
+    color: hsl(204, 98%, 51%); 
+}
+
+/* mobile display */
+@media (max-width:375px)
+{
+    *{
+        padding: 0;
+        margin: 0;
+        text-align: center;
+        align-items: center;
+    }
+    body{
+        width: 94vw;
+        height: auto;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        padding: 0;
+    }
+    .container{
+        border-radius: 0px;
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        width: 90.5vw;
+        border-radius: 0px;
+        overflow: hidden;
+        border-radius: 10px;
+
+    }
+    .box{
+        height: 400px;
+        width: 90%;
+        padding-right: 30%;
+        padding-left: 30%;
+        padding-top: 10%;
+    }
+    button{
+        width: 50%;
+    }
+
+}
